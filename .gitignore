@@ -1,0 +1,26 @@
+# Ignore these files
+*.txt
+*.json
+*.jsonl
+*.csv
+*.mp4
+*.gz
+*.npy
+*.hdf5
+*.code-workspace
+*.pt
+*.vrs
+
+# Whitelist specific files with ignored extensions
+!egoexo4d/egoexo/annotations/keystep_train.json
+!egoexo4d/egoexo/annotations/keystep_val.json
+!egoexo4d/egoexo/takes.json
+
+# These files will be whitelisted and version controlled
+!*.ipynb
+!*.py
+!*.gitignore
+!*.bundle
+
+# Ignore specific files with whitelisted extensions
+blake_get_video_uids.ipynb
